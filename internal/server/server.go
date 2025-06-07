@@ -10,11 +10,12 @@ import (
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 	"github.com/gorilla/sessions"
-	"github.com/llaoj/gcopy/internal/config"
-	"github.com/llaoj/gcopy/internal/gcopy"
-	"github.com/llaoj/gcopy/pkg/utils"
 	"github.com/mileusna/useragent"
 	"github.com/sirupsen/logrus"
+
+	"github.com/wei45955/gcopy/internal/config"
+	"github.com/wei45955/gcopy/internal/gcopy"
+	"github.com/wei45955/gcopy/pkg/utils"
 )
 
 type Server struct {

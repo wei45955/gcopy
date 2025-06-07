@@ -15,7 +15,7 @@ TAG?=$(VERSION)
 REGISTRY?=docker.io/llaoj
 
 # PKG is the package name of gcopy repo.
-PKG:=github.com/llaoj/gcopy
+PKG:=github.com/wei45955/gcopy
 
 # The image repo of the gcopy container image.
 GCOPY_IMAGE_REPO:=$(REGISTRY)/gcopy

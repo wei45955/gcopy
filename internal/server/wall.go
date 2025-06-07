@@ -4,9 +4,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/llaoj/gcopy/internal/gcopy"
-	"github.com/llaoj/gcopy/pkg/utils"
 	"github.com/sirupsen/logrus"
+	"github.com/wei45955/gcopy/internal/gcopy"
+	"github.com/wei45955/gcopy/pkg/utils"
 )
 
 // Clipboards on the wall

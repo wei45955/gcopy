@@ -4,7 +4,7 @@ import (
 	"flag"
 	"log"
 
-	"github.com/llaoj/gcopy/pkg/version"
+	"github.com/wei45955/gcopy/pkg/version"
 )
 
 func Get() *Config {

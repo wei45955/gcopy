@@ -4,9 +4,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/llaoj/gcopy/internal/config"
-	"github.com/llaoj/gcopy/internal/server"
 	"github.com/sirupsen/logrus"
+
+	"github.com/wei45955/gcopy/internal/config"
+	"github.com/wei45955/gcopy/internal/server"
 )
 
 func main() {

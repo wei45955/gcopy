@@ -42,10 +42,10 @@ export default function Navbar() {
               <Link
                 href={
                   locale == "zh"
-                    ? "https://github.com/llaoj/gcopy/blob/v" +
+                    ? "https://github.com/wei45955/gcopy/blob/v" +
                       pack.version +
                       "/docs/zh-CN/README.md"
-                    : "https://github.com/llaoj/gcopy/blob/v" +
+                    : "https://github.com/wei45955/gcopy/blob/v" +
                       pack.version +
                       "/README.md"
                 }
@@ -66,7 +66,7 @@ export default function Navbar() {
         <a
           className="btn btn-ghost btn-circle"
           target="_blank"
-          href="https://github.com/llaoj/gcopy"
+          href="https://github.com/wei45955/gcopy"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
