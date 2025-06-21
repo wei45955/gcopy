@@ -8,7 +8,6 @@ COPY . .
 RUN GOARCH=${TARGETARCH} make bin/gcopy
 
 FROM alpine
-LABEL maintainer="llaoj <hmmmbiubiubiu@gmail.com>"
 
 WORKDIR /
 COPY --from=builder /app/bin/gcopy .

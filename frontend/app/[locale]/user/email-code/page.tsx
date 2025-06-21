@@ -1,9 +1,9 @@
 "use client";
 
-import { FormEvent, useState } from "react";
-import { useRouter } from "next/navigation";
-import { useLocale, useTranslations } from "next-intl";
 import Logo from "@/components/logo";
+import { useLocale, useTranslations } from "next-intl";
+import { useRouter } from "next/navigation";
+import { FormEvent, useState } from "react";
 
 export default function EmailCode({
   searchParams,

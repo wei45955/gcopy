@@ -15,7 +15,6 @@ RUN npx update-browserslist-db@latest --force
 RUN npm run build
 
 FROM base AS runner
-LABEL maintainer="llaoj <hmmmbiubiubiu@gmail.com>"
 
 WORKDIR /app
 
